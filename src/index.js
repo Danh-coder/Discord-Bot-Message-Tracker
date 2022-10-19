@@ -48,7 +48,7 @@ setInterval(async () => {
     const trendingList = wc.report()
 
     const channel = client.channels.cache.get(channelId)
-    var answer = `Trending Keywords (${timeAgo/1000}m) \n`
+    var answer = `Trending Keywords (${timeAgo/60000}m) \n`
     var index = 1
     for (const keyword of trendingList) {
         if (keyword[1] <= 1) continue
