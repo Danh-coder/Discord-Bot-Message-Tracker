@@ -115,7 +115,8 @@ These are things you need to use the software and how to install them.
    npm install
    ```
 3. Create your bot and log it in your server following [this link](https://youtu.be/b61kcgfOm_4)
-4. Enter your Discord Bot Token, MongoDB URI, and the channelID of your discord channel in `config/config.json`
+4. Create a MongoDB database following [this link](https://account.mongodb.com/account/login?n=%2Fv2%2F5f1d49b44f59762ba11983ab&nextHash=%23clusters)
+5. Enter your Discord Bot Token, MongoDB URI, and the channelID of your discord channel in `config/config.json`
    ```json
    {
       "token": "<your_bot_token>",
